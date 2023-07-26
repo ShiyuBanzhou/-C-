@@ -1,0 +1,28 @@
+// 求最小公约数
+/*
+#include <stdio.h>
+int main(void)
+{
+	int m, n, x,t;
+	printf("请输入两个数：");
+	scanf("%d%d",&m,&n);
+	
+	if (m < n)
+	{
+		t = m;
+		m = n;
+		n = t;
+	}
+
+	x = m % n;
+	while (x != 0)
+	{
+		m = n;
+		n = x;
+		x = m % n;
+	}
+
+	printf("\n最小公约数为：%d",n);
+	return 0;
+}
+*/

@@ -1,0 +1,40 @@
+//7.9 输出一个正整数及自己前的所有素数
+//注：寻找的过程中可以利用
+#include <math.h>
+sqrt() 以精简程序的运行时间
+(因为若能够整除，其根一定是成对出现)
+
+/*
+#include <stdio.h>
+#include <math.h>
+int main(void)
+{
+	int a,b,i,prime;
+	printf("请输入一个正整数:");
+	while ((scanf("%d", &a)) == 1 && (a > 0)) {
+			if (a == 1) {
+			printf("1 isn't a primer!\n");
+			printf("You can enter again(<=0 to quit)\n");
+			continue;
+		}
+		else {
+			for (i = 2; i <= a; i++) {
+				prime = 1;
+				for (b = 2; b <= sqrt(i); b++) {
+					if (i % b == 0) {
+						prime = 0;
+						break;
+					}
+				}
+				if (prime) {
+					printf("%3d",i);
+				}
+			}
+		}
+		printf("\nYou can enter again(<=0 to quit)\n");
+	 }
+	printf("Done!");
+
+	return 0;
+}
+*/

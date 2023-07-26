@@ -1,0 +1,45 @@
+//二分法
+/*
+#include <stdio.h>
+int main(void)
+{
+	int low, mid, high,i,b;
+	int a[10];
+	printf("请输入十个数字（按照顺序）：");
+	for (i = 0; i < 10; i++) {
+		printf("a[%d]",i);
+		scanf("%d",&a[i]);
+	}
+
+	low = 0;
+	high = 9;
+
+	printf("输入想要查找的数：");
+	scanf("%d",&b);
+
+	while(low<=high) {
+		mid = (high + low) / 2;
+		if (a[mid] == b) {
+			break;
+		}
+		else {
+			if (a[mid] < b) {
+				low = mid + 1;
+			}
+			else {
+				high = mid - 1;
+			}
+		}
+
+	}
+
+	if (low <= high) {
+		printf("%d", mid);
+	}
+	else {
+		printf("no");
+	}
+
+	return 0;
+}
+*/

@@ -1,0 +1,34 @@
+//验证是否为素数
+/*
+#include <stdio.h>
+int main(void)
+{
+	int t, x;
+	t = 2;
+	printf("请输入一个数：");
+	scanf("%d",&x);
+	if (t >= x)
+	{
+		if (t == x)
+			printf("输入的数 %d 为素数",x);
+		else
+			printf("输入的数 %d 非素数",x);
+	}
+	else
+	{
+		for (t = 2; t < x; t++)
+		{
+			if (x % t == 0)
+				break;
+		}
+	}
+	
+	if (t == x)
+		printf("Yes 输入的数 %d 为素数", x);
+	else
+		printf("No 输入的数 %d 非素数",x);
+
+
+	return 0;
+}
+*/
